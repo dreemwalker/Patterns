@@ -42,6 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Blacksmith.cs" />
+    <Compile Include="Models\BluntMaster.cs" />
+    <Compile Include="Models\Mace.cs" />
+    <Compile Include="Models\Sword.cs" />
+    <Compile Include="Models\SwordMaster.cs" />
+    <Compile Include="Models\Weapon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

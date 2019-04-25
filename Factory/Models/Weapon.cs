@@ -8,5 +8,6 @@ namespace Factory.Models
 {
     abstract class Weapon
     {
+
     }
 }

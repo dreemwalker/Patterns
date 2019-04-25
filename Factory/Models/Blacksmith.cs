@@ -8,6 +8,6 @@ namespace Factory.Models
 {
     abstract class Blacksmith
     {
-        public abstract Weapon Forge();
+        public  abstract Weapon Forge();
     }
 }

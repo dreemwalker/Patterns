@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Factory.Models
 {
-    class BluntMaster
+    class BluntMaster: Blacksmith
     {
+        public override Weapon Forge()
+        {
+            return new Mace();
+        }
     }
 }
